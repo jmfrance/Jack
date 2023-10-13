@@ -29,3 +29,16 @@ if (age1 == age2)
 {
     Console.WriteLine(name1 + " and " + name2 + " are the same age");
 }
+
+if (age1 > age2)
+{
+    Console.WriteLine(name1 + " is " + (age1 - age2) + " years older than " + name2);
+}
+else if (age1 < age2)
+{
+    Console.WriteLine(name2 + " is " + (age2 - age1) + " years older than " + name1);
+}
+else
+{
+    Console.WriteLine(name1 + " and " + name2 + " are the same age");
+}
