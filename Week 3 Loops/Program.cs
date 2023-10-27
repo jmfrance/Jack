@@ -1,6 +1,3 @@
-﻿using System.ComponentModel.Design;
-using System.Reflection.Emit;
-
 Console.WriteLine("Programming Portfolio results calculator");
 double digTotal = 0;
 double digRounded = 0;
